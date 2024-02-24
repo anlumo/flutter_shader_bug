@@ -1,0 +1,17 @@
+name: fragment_shader_bug
+description: "Demonstrating issue with fragment shaders in Flutter 3.19"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  shaders:
+    - shaders/demo.frag
